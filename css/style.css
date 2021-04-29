@@ -19,6 +19,12 @@
     color: var(--main-color);
 }
 
+@media screen and (max-width : 576px) {
+    * {
+        font-size: 12px;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -50,6 +56,17 @@ header > .header-top {
 
 header > .header-top > .logo img {
     max-height: 180px;
+}
+
+@media screen and (max-width: 576px) {
+
+    header > .header-top > .logo img {
+        max-height: 80px;
+    }
+
+    header > .header-top .header-icon{
+        height: 20px;
+    }
 }
 
 header > .header-nav {
@@ -99,6 +116,10 @@ footer {
     height: 160px;
 }
 
+.footer-top .col-sm {
+    align-self: center;
+}
+
 .footer-top .col {
     align-self: center;
 }
@@ -107,7 +128,7 @@ footer {
     color: var(--main-color);
 }
 
-.footer-top .footer-nav-link{
+.footer-top .footer-nav-link {
     display: block;
     text-decoration: none;
     color: var(--main-color);
@@ -122,10 +143,33 @@ footer {
     font-weight: 700;
 }
 
+@media screen and (max-width : 768px) {
+    .footer-top .footer-nav-link,
+    .footer-top address h4,
+    .footer-top address h5 {
+        font-size: 1.1em;
+    }
+
+    .footer-top img {
+        max-height: 80px;
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .footer-nav {
+        display: none;
+    }
+
+    .footer-top img {
+        max-height: 60px;
+    }
+
+    .footer-top #logo-massy {
+        max-width: 150px;
+    }
+}
+
 /* -- Page Accueil Content Style -- */
-
-
-/* -- Page Contact Content Style -- */
 
 
 /* -- Page Association Content Style -- */
