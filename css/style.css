@@ -1,2 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* -- Definition Global Variables -- */
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --main-font-size: 16px;
+    --title-font: 'Kalam', cursive;
+    --main-color: #3D4849;
+    --secondary-color: #66AB8C;
+    --main-bg-color: #FFFADB;
+    --secondary-bg-color: #6EC4DB;
+    --third-bg-color: #FA7C92;
+}
+
+/* -- All Pages Style -- */
+* {
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--title-font);
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+/* -- Header Style -- */
+
+header {
+    height: 250px;
+}
+
+header > .header-top {
+    height: 180px;
+}
+
+.header-top > div {
+    align-self: center;
+}
+
+header > .header-top > .logo img {
+    max-height: 180px;
+}
+
+header > .header-nav {
+    background-color: var(--secondary-bg-color);
+    height: 70px;
+}
+
+header > .header-nav > nav {
+    background-color: var(--secondary-bg-color);
+    padding: 0;
+}
+
+header > .header-nav > nav a{
+    height: 70px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+header > .header-nav > nav h3 {
+    color: var(--main-color);
+    line-height: 60px;
+}
+
+header > .header-nav > nav .nav-link {
+    font-family: var(--title-font);
+    font-size: 1.4em;
+}
+
+header > .header-nav > nav .active {
+    background-color: var(--third-bg-color);
+    text-decoration: underline;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px var(--main-color);
+}
+
+
+/* -- Footer Style -- */
+
+footer {
+    height: 200px;
+}
+
+.footer-top {
+    background-color: var(--secondary-bg-color);
+    height: 160px;
+}
+
+.footer-top .col {
+    align-self: center;
+}
+
+.footer-top address h4, .footer-top address h5 {
+    color: var(--main-color);
+}
+
+.footer-top .footer-nav-link{
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: var(--title-font);
+    font-size: 1.5em;
+}
+
+.footer-copyright {
+    background-color: var(--third-bg-color);
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+/* -- Page Accueil Content Style -- */
+
+
+/* -- Page Contact Content Style -- */
+
+
+/* -- Page Association Content Style -- */
+
+
+/* -- Page Activités Content Style -- */
