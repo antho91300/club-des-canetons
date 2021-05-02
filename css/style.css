@@ -69,6 +69,28 @@ body {
     font-family: var(--title-font);
 }
 
+/* -- Photos Credits -- */
+
+.photos {
+    position: relative;
+}
+
+.credits {
+    background-color: var(--main-color);
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: var(--main-bg-color);
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.credits a {
+    color: currentColor;
+    font-weight: 700;
+}
+
 /* -- Header Style -- */
 
 header {

@@ -1,0 +1,6 @@
+# robots.txt du site Le Club des Canetons #
+
+User-agent: *
+Disallow: /img/photos/
+
+Sitemap: sitemap.xml
