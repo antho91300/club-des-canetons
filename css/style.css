@@ -215,6 +215,12 @@ footer {
     font-weight: 700;
 }
 
+@media screen and (max-width: 992px) {
+    .footer-copyright p {
+        line-height: 40px;
+    }
+}
+
 .footer-top img {
     max-width: 150px;
 }
@@ -268,4 +274,21 @@ footer {
 
 .activites .card {
     padding: 0;
+}
+
+.card-img-top:hover {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(50%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+/* -- Page Evénements Content Style -- */
+
+.evenements .card {
+    padding: 0;
+}
+
+.date {
+    text-align: end;
 }
