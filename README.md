@@ -20,12 +20,15 @@ Strucutre Globale :
     - Footer : container-fluid largeur 100%
 
 Structure Header :
-    - bloc supérieure : Mot de bienvenue + LOGO + adresse association
+    - bloc supérieure : Mot de bienvenue + LOGO + Liens Réseaux sociaux/mail
     - bloc inférieure : Menu responsive (liens en desktop / burger icon en mobile)
 
 Structure Footer :
     - bloc supérieur :
+        - Adresse
         - LOGO
-        - Adresse + reseaux sociaux
-        - liens navigation
+        - Logo mairie
+        - liens menu
     - bloc inférieur : Copyright
+
+
