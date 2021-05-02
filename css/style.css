@@ -46,6 +46,12 @@ a:visited {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-color: var(--main-bg-color);
 }
@@ -106,21 +112,25 @@ header > .header-top {
 }
 
 .navbar-brand img {
-    max-height: 60px;
+    max-width: 60px;
 }
 
 header > .header-top > .logo img {
-    max-height: 180px;
+    max-width: 180px;
+}
+
+header > .header-top .header-icon{
+    width: 30px;
 }
 
 @media screen and (max-width: 576px) {
 
     header > .header-top > .logo img {
-        max-height: 100px;
+        max-width: 100px;
     }
 
     header > .header-top .header-icon{
-        height: 20px;
+        width: 20px;
     }
 }
 
@@ -198,6 +208,14 @@ footer {
     font-weight: 700;
 }
 
+.footer-top img {
+    max-width: 150px;
+}
+
+.footer-top #logo-massy {
+    max-width: 250px;
+}
+
 @media screen and (max-width : 768px) {
     .footer-top .footer-nav-link,
     .footer-top address h4,
@@ -206,21 +224,25 @@ footer {
     }
 
     .footer-top img {
-        max-height: 80px;
+        max-width: 100px;
+    }
+
+    .footer-top #logo-massy {
+        max-width: 150px;
     }
 }
 
-@media screen and (max-width : 576px) {
+@media screen and (max-width : 575px) {
     .footer-nav {
         display: none;
     }
 
     .footer-top img {
-        max-height: 60px;
+        max-width: 60px;
     }
 
     .footer-top #logo-massy {
-        max-width: 150px;
+        max-width: 100px;
     }
 }
 
@@ -236,3 +258,7 @@ footer {
 
 
 /* -- Page Activités Content Style -- */
+
+.activites .card {
+    padding: 0;
+}
