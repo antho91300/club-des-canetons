@@ -90,6 +90,9 @@ body {
     color: var(--main-bg-color);
     font-size: 0.8em;
     margin: 0;
+    border-radius: .3rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
 }
 
 .credits a {
@@ -109,6 +112,10 @@ header > .header-top {
 
 .header-top > div {
     align-self: center;
+}
+
+.navbar {
+    z-index: 3;
 }
 
 .navbar-brand img {
