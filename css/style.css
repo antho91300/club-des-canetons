@@ -75,6 +75,10 @@ body {
     font-family: var(--title-font);
 }
 
+.navbar-toggler {
+    margin-left: auto;
+}
+
 /* -- Photos Credits -- */
 
 .photos {
