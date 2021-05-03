@@ -3,4 +3,4 @@
 User-agent: *
 Disallow: /img/photos/
 
-Sitemap: sitemap.xml
+Sitemap: https://antho91300.github.io/club-des-canetons/sitemap.xml
