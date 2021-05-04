@@ -143,6 +143,14 @@ header > .header-top .header-icon{
     header > .header-top .header-icon{
         width: 20px;
     }
+
+    .navbar-toggler {
+        margin-top: 5px;
+    }
+
+    .navbar-toggler.collapsed {
+        margin-top: 0px;
+    }
 }
 
 header > .header-nav {
@@ -269,6 +277,14 @@ footer {
 #presentation img {
     width: 100%;
 }
+
+@media screen and (max-width: 575px) {
+    .description {
+        padding: 20px;
+    }
+}
+
+
 
 
 /* -- Page Association Content Style -- */
